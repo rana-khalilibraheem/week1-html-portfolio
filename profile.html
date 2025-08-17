@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+</head>
+<body>
+  <h1>My Profile</h1>
+
+  <!-- Table Example -->
+  <h2>My Course Timetable</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th>Day</th>
+      <th>Course</th>
+      <th>Time</th>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>HTML & CSS</td>
+      <td>10:00 - 12:00</td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>JavaScript</td>
+      <td>12:00 - 14:00</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Git & GitHub</td>
+      <td>14:00 - 16:00</td>
+    </tr>
+  </table>
+
+  <!-- Form Example -->
+  <h2>Profile Form</h2>
+  <form action="#" method="GET">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Favorite Language -->
+    <label for="language">Favorite Language:</label>
+    <select id="language" name="language">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
